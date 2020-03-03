@@ -1,5 +1,7 @@
 # Integers and Float, Complex numbers , big ints
 
+import math
+
 #Integers
 #Full numbers
 
@@ -26,3 +28,11 @@ print(10%4)
 #Casting data types
 
 print(int(5)+float(21.87))
+
+randomn_num = 10.4
+
+print(math.floor(randomn_num))
+
+
+print(round(2.26,1))
+print(round(2.56,1))

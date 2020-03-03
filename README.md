@@ -18,3 +18,4 @@ We will also learn:
      - Good Naming 
      - DRY 
      - Other 
+     - RTFM

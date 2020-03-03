@@ -31,7 +31,7 @@ print (f'Welcome {name} to class 54, we are Contested Terrain ')
 
 #print (f'Welcome {input("What is your name")} to class 54, we are Contested Terrain ')
 
-print ('Welcome to class 54 {},  we are Contested Terrain'.format(name))
+print ('Welcome to class 54 ,  we are Contested Terrain'.format(name))
 
 
 #Useful methods

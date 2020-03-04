@@ -24,8 +24,8 @@ boris_dict = {'name': 'Boris',
               'phone': '07712345678',
               'address': '10 Downing Street'}
 
-for key in boris_dict:
-    print(key)
+
 
 for key in boris_dict:
-    print(boris_dict[key])
+    #print(key)
+    print(key ,':',boris_dict[key])

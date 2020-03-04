@@ -23,6 +23,12 @@ while count != 0 :
         count = count - 1
         print(f'try again please you have {count} more tries')
         continue
+    else:
+        if user_number != magic_number:
+            print (f'sorry you failed the magic number was{magic_number}')
+
+
+
 
 # I need to let the user know if the response was write or not
 #self five

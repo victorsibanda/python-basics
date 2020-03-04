@@ -8,19 +8,21 @@ import random
 
 # We should define/assign number to a variable called magic_number
 magic_number = random.randrange(0, 20,1)
-
+count = 6
 # I need to ask user for input
-user_number = float(input('What do you think the magic number is between 0 and 20:'))
+print(magic_number)
 
-while user_number != magic_number:
-
+while count != 0 :
+    user_number = int(input('What do you think the magic number is between 0 and 20:'))
 # I need to check if this input matches a magic_number
 
     if user_number == magic_number :
         print ('you are correct')
-    elif user_number != magic_number:
-        print('try again please')
-    break
+        break
+    elif user_number != magic_number :
+        count = count - 1
+        print(f'try again please you have {count} more tries')
+    continue
 
 
 

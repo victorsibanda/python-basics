@@ -16,15 +16,13 @@ while count != 0 :
     user_number = int(input('What do you think the magic number is between 0 and 20:'))
 # I need to check if this input matches a magic_number
 
-    if user_number == magic_number :
-        print ('you are correct')
+    if user_number == magic_number and count != 0 :
+        print (f'you are correct the magic number is {magic_number}')
         break
-    elif user_number != magic_number :
+    elif user_number != magic_number and count != 0 :
         count = count - 1
         print(f'try again please you have {count} more tries')
-    continue
-
-
+        continue
 
 # I need to let the user know if the response was write or not
 #self five

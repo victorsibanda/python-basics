@@ -58,4 +58,4 @@ print ('Got:', add_fun(10,820))
 
 
 print (power(10,2) == 100)
-print ('Got:', power(10,2))
+print ('Got:', power(10,2)c

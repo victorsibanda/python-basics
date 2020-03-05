@@ -12,11 +12,10 @@
     # if a multiple of 3 and 5 it return bizzzzuu
 
 
-num  =  list(range(0,101))
+num = list(range(0,101))
 
+while num != 'penpinapplespen':
 
-
-while num != 'penpinapplespen' :
     num = int(input('Enter a number:'))
     if num == 'penpinapplespen':
         break

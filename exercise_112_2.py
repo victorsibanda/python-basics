@@ -1,7 +1,5 @@
 num = " "
 
-
-
 while num != 'penpinapplespen' :
     num = int(input('Enter a number:'))
     temp_num = num
@@ -18,4 +16,7 @@ while num != 'penpinapplespen' :
 
         elif num % 5 == 0:
             print('Zzuu')
+        else:
+            print('please enter a valid input')
+
 

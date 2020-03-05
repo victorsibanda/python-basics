@@ -19,3 +19,5 @@ We will also learn:
      - DRY 
      - Other 
      - RTFM
+ - Repo now contains exercise 
+ 101 - 112 which gives us an understanding of using basic data types. 

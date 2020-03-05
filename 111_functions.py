@@ -12,6 +12,13 @@ It can take in inputs do some work  and it can output something different.
 -print the calling of the function
 -they need to be called (using the name and arguments )
 
+
+- Separation of concerns
+- You separate your code logically
+- place where you define functions
+- place where you run functions
+-Place where you right tests
+-Place where you define seeds 'Seeds are fake data for your app'
 #Syntax
 
 def name_of_function (arg1, arg2):

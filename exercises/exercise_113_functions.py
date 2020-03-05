@@ -45,7 +45,7 @@ def area_of_sphere(r) :
     return result
 
 
-def hypotnuse_fun(a,b):
+def hypo_fun(a,b):
     result = ( a**2 + b**2 )**0.5
     return result
 
